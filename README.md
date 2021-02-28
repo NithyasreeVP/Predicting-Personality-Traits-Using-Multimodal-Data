@@ -46,7 +46,7 @@ This is provided by the department (from [Juan et al., 2016]) and is present in 
 
 Personality recognition frame-work
 
-![Flow_chart1](/uploads/624def57ab1599fd8d9f31d2c16d9dfc/Flow_chart1.png)
+![Flow chart1](https://user-images.githubusercontent.com/73828269/109433243-a9fd9b00-7a0f-11eb-8ad7-1faa8821b993.png)
 
 
 ## Repo Usage:
