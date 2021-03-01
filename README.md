@@ -47,7 +47,7 @@ For detailed explaination of how to use the repository, please refer the Project
 
 
 ## Results:
-RF trained on single modality (bi-ological  signals) was compared  with  RF  trained  on  fusion  of  modalities (biological signals and gaze). As a result of feature level fusion of two modalities, F1-score of extraversion, agreeable-ness, conscientiousness, emotional stability was increasedby 0.076, 0.033, 0.309 and 0.128 respectively, compared to RF with single modality.
+RF trained on single modality (biological  signals) was compared  with  RF  trained  on  fusion  of  modalities (biological signals and gaze). As a result of feature level fusion of two modalities, F1-score of extraversion, agreeable-ness, conscientiousness, emotional stability was increasedby 0.076, 0.033, 0.309 and 0.128 respectively, compared to RF with single modality.
 
 ![RF bio vs fusion](https://user-images.githubusercontent.com/73828269/109493522-eb805b80-7a8c-11eb-8ff6-9fa0231fe186.png)
 
