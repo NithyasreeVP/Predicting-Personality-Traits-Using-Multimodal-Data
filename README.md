@@ -1,9 +1,6 @@
 
 # Predicting Personality Traits Using Multimodal Data
-Fachpraktikum Machine learning and Computer vision laboratory for Human Computer Interaction <br>
-Author 1: Nithyasree Vivekanandham Pushpalatha - st169653@stud.uni-stuttgart.de <br>
-Author 2: Priyadarshini Krishna Shobha - st169614@stud.uni-stuttgart.de
-
+This project was done for Fachpraktikum Machine learning and Computer vision laboratory for Human Computer Interaction, University of Stuttgart
 
 ## Reference
 1. Main paper to be cited ([Juan et al., 2016](http://www.eecs.qmul.ac.uk/mmv/datasets/amigos/doc/Paper_TAC.pdf))
@@ -19,12 +16,7 @@ Author 2: Priyadarshini Krishna Shobha - st169614@stud.uni-stuttgart.de
   doi={10.1109/TAFFC.2018.2884461}
 }
 ```
-## Abstract
-
-With the increase need of personalisation, the recognition of personality traits have become crucial in making human computer interaction more user friendly and realistic. The ability to detect the personality from neuroscientific data emphasizes on the importance of neurobiological basis of personality. This paper focuses on classifying the personality traits using the AMIGOS dataset. The physiological and gaze features are extracted from the given dataset and three different machine learning models are trained to predict the Big-Five personality traits. The importance of multimodal data in personality recognition are briefly discussed and the performance of the classifier in terms of F1-Score and accuracy for both individual and fusion modalities are presented.
-
-
-# Introduction
+## Introduction
 
 The aim of this project is to predict personality traits based on multimodal data using AMIGOS dataset consisting videos and biological signals like Electroencephalogram (EEG), Galvanic Skin Response (GSR) and Electrocardiogram (ECG). We firstly extract the gaze features from videos and physiological features from biological signals. Next, we apply machine learning algorithms like Random Forest (RF), Support Vector Machines (SVM) and eXtreme Gradient Boost (XGBoost) and different feature selection methods to personality recognition framework which performs binary classification of the Big-Five personality traits in the individual setting.
 
@@ -40,7 +32,7 @@ The aim of this project is to predict personality traits based on multimodal dat
 
 ## Dataset:
 
-This is provided by the department (from [Juan et al., 2016]) and is present in the GPU1 of the department.
+This is provided by [Juan et al., 2016].
 
 ## Overview:
 
@@ -52,6 +44,13 @@ Personality recognition frame-work
 ## Repo Usage:
 
 For detailed explaination of how to use the repository, please refer the Project_How_To document
+
+
+## Results:
+RF trained on single modality (bi-ological  signals) was compared  with  RF  trained  on  fusion  of  modalities (biological signals and gaze). As a result of feature level fusion of two modalities, F1-score of extraversion, agreeable-ness, conscientiousness, emotional stability was increasedby 0.076, 0.033, 0.309 and 0.128 respectively, compared to RF with single modality.
+
+![F1-score of RF classifier with biological and fusion of modalities](RF bio vs fusion.png)
+
 
 
 ## Acknowledgement:
